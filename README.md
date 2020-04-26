@@ -1,4 +1,5 @@
 ## 快速使用
+[无法查看图片？](https://www.clost.net/default/871.html "无法查看图片？")
 
 - Fork本项目后进入自己的仓库，点击你的仓库右上角的 Settings，找到 Secrets
     <details>
