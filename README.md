@@ -6,40 +6,38 @@
    注册或登陆您的github账号，访问<https://github.com/Closty/chaoxing>进入github的本项目页面中，点击右上角的Fork按钮，如图所示。
    
    ![Fork本项目][7]
-   [7]: https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3749713206.png
    
    </details>
 -  点击Add a new secret以配置你的信息
     <details>
    <summary> 如何配置？</summary>
     第一项
-      Name：`CHAOXING_USERNAME`
-      Value：`填写你的超星账户，最好为11位的手机号`
+     Name：`CHAOXING_USERNAME`
+     Value：`填写你的超星账户，最好为11位的手机号`
     第二项
      Name：`CHAOXING_PASSWORD`
-      Value：`填写你的超星密码`
-	第三项
+     Value：`填写你的超星密码`
+    第三项
      Name：`CHAOXING_SCHOOL`
-      Value：`填写你的schoolid`#如果CHAOXING_USERNAME中的Value填写的是手机号，则本处填写'None'
-	第四项
-      Name：`CHAOXING_SERVEROR`
-      Value：`填写True或者False`#True代表使用微信提醒，False代表不使用
-	 第五项
-    - Name：`CHAOXING_SERVER`
-      Value：`填写你的server酱SCKEY码，以SCU开头`#申请地址http://sc.ftqq.com/3.version  
-	     
- >  不分前后顺序，完成后如下图所示		 不分前后顺序，完成后如下图所示
+     Value：`填写你的schoolid`#如果CHAOXING_USERNAME中的Value填写的是手机号，则本处填写'None'
+     第四项
+     Name：`CHAOXING_SERVEROR`
+     Value：`填写True或者False`#True代表使用微信提醒，False代表不使用
+     第五项
+     Name：`CHAOXING_SERVER`
+     Value：`填写你的server酱SCKEY码，以SCU开头`#申请地址http://sc.ftqq.com/3.version  
 
-   ![3ABA6F49DE5D7DB3144B14FC9A7F1809.jpg](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/437025077.jpg)
+   ![3ABA6F49DE5D7DB3144B14FC9A7F1809.jpg][2]
    
     </details>
 - 设置好环境变量后点击你的仓库上方的 Actions 选项，会打开一个如下的页面，点击 `I understand...` 按钮确认在 Fork 的仓库上启用 GitHub Actions 。
 - 最后在你这个 Fork 的仓库内随便改点什么（比如给 README 文件删掉或者增加几个字符）提交一下手动触发一次 GitHub Actions 就可以了 **（重要！！！测试发现在 Fork 的仓库上 GitHub Actions 的定时任务不会自动执行，必须要手动触发一次后才能正常工作）** 。
 - <details>
    <summary> 如何查看脚本执行情况？</summary>
-**注意：** 为了实现某个链接/帐户访问出错时不中断程序继续尝试下一个，GitHub Actions 的状态将永远是“通过”（显示绿色的✔），请自行检查 GitHub Actions 日志：依次点击`Actions`=>`chaoxing`=>`get_points`=>`Qiandao` 项的输出确定程序执行情况。
-![6D6681A2A552E03AE2AEC28B4542F217.jpg](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3207755264.jpg)
-   
+   **注意：** 为了实现某个链接/帐户访问出错时不中断程序继续尝试下一个，GitHub Actions 的状态将永远是“通过”（显示绿色的✔），请自行检查 GitHub      Actions 日志：依次点击`Actions`=>`chaoxing`=>`get_points`=>`Qiandao` 项的输出确定程序执行情况。
+	
+   ![6D6681A2A552E03AE2AEC28B4542F217.jpg][1]
+
    </details>
 
 
@@ -79,3 +77,9 @@ python脚本在`chaoxing/cx.py`文件中，其中第12—34行为配置区域，
 | https://github.com/yuban10703/chaoxingsign              | Python     | 超星学习通自动签到                   |
 
 
+
+
+
+[7]: https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3749713206.png
+[1]: https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3207755264.jpg
+[2]:https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/437025077.jpg
