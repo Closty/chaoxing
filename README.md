@@ -8,33 +8,60 @@
    ![Fork本项目][7]
    
    </details>
--  点击Add a new secret以配置你的信息
+-  fork后进入你自己的仓库并在setting配置您的超星账号信息
     <details>
    <summary> 如何配置？</summary>
-    第一项
-     Name：`CHAOXING_USERNAME`
-     Value：`填写你的超星账户，最好为11位的手机号`
-    第二项
-     Name：`CHAOXING_PASSWORD`
-     Value：`填写你的超星密码`
-    第三项
-     Name：`CHAOXING_SCHOOL`
-     Value：`填写你的schoolid`#如果CHAOXING_USERNAME中的Value填写的是手机号，则本处填写'None'
-     第四项
-     Name：`CHAOXING_SERVEROR`
-     Value：`填写True或者False`#True代表使用微信提醒，False代表不使用
-     第五项
-     Name：`CHAOXING_SERVER`
-     Value：`填写你的server酱SCKEY码，以SCU开头`#申请地址http://sc.ftqq.com/3.version  
+   1.首先进入自己的仓库（前提您已经登陆账号）
+	
+   ![E19D60FD6823769D2822C93960835D01.jpg][3]
+   <br><br><br>
+   2.点击chaoxing字样的项目也就是刚刚fork后的项目
+   
+   ![41CA3BC4C95CAE8D7F8FB3A05B816CB0.jpg][4]
+   <br><br><br>
+   3.点击setting进入设置界面
+   
+   ![711234FE886728474A5326E42A06A40E.jpg][5]
+   <br><br><br>
+   4.点击secrets后点击add a new secret
+   
+   ![3AB6B127331F5CCE552730FACDA680A3.jpg][6]
+   <br><br><br>
+   依次添加以下所有name以及value。<br>
+    ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉ <br>Name:<code>CHAOXING_USERNAME</code><br>
+	Value：<code>填写你的超星账户，最好为11位的手机号</code><br>
+   ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉<br>
+     Name：<code>CHAOXING_PASSWORD</code><br>
+     Value：<code>填写你的超星密码</code><br>
+    ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉<br>
+     Name：<code>CHAOXING_SCHOOL</code><br>
+     Value：<code>填写你的schoolid</code>#如果CHAOXING_USERNAME中的Value填写的是手机号，则本处填写'None'<br>
+     ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉<br>
+     Name：<code>CHAOXING_SERVEROR</code><br>
+     Value：<code>填写True或者False</code>#True代表使用微信提醒，False代表不使用<br>
+     ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉<br>
+     Name：<code>CHAOXING_SERVER</code><br>
+     Value：<code>填写你的server酱SCKEY码，以SCU开头</code>#申请地址http://sc.ftqq.com/3.version  <br>
+      ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉<br>配置完后如下图所示
 
    ![3ABA6F49DE5D7DB3144B14FC9A7F1809.jpg][2]
    
     </details>
 - 设置好环境变量后点击你的仓库上方的 Actions 选项，会打开一个如下的页面，点击 `I understand...` 按钮确认在 Fork 的仓库上启用 GitHub Actions 。
 - 最后在你这个 Fork 的仓库内随便改点什么（比如给 README 文件删掉或者增加几个字符）提交一下手动触发一次 GitHub Actions 就可以了 **（重要！！！测试发现在 Fork 的仓库上 GitHub Actions 的定时任务不会自动执行，必须要手动触发一次后才能正常工作）** 。
+   <details>
+   <summary> 如何随意修改README文件？</summary>
+   
+   1.进入你的仓库并进入code界面,点击笔字的按钮进入编写
+   ![2D6731A3F5A39D89D91B4F201F8C0B70.jpg](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3647386614.jpg)<br><br><br>
+   2.在代码框随意编写或删减以达到改变代码的效果，随后点击提交commit，当然如果可以让说明书更精美欢迎来pull
+   ![E0F2D41544BE07971A596488E7A72EAA.jpg](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3472948209.jpg)
+
+   </details>
+   
 - <details>
    <summary> 如何查看脚本执行情况？</summary>
-   **注意：** 为了实现某个链接/帐户访问出错时不中断程序继续尝试下一个，GitHub Actions 的状态将永远是“通过”（显示绿色的✔），请自行检查 GitHub      Actions 日志：依次点击`Actions`=>`chaoxing`=>`get_points`=>`Qiandao` 项的输出确定程序执行情况。
+   注意： 为了实现某个链接/帐户访问出错时不中断程序继续尝试下一个，GitHub Actions 的状态将永远是“通过”（显示绿色的✔），请自行检查 GitHub      Actions 日志：依次点击<code>Actions</code>=><code>chaoxing</code>=><code>get_points</code>=><code>Qiandao</code>项的输出确定程序执行情况。
 	
    ![6D6681A2A552E03AE2AEC28B4542F217.jpg][1]
 
@@ -83,3 +110,7 @@ python脚本在`chaoxing/cx.py`文件中，其中第12—34行为配置区域，
 [7]: https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3749713206.png
 [1]: https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3207755264.jpg
 [2]:https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/437025077.jpg
+[3]:https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3185006214.jpg
+[4]:https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/977504155.jpg
+[5]:https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/1888532943.jpg
+[6]:https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3351341396.jpg
