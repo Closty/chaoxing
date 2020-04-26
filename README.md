@@ -1,9 +1,7 @@
 ## 快速使用
-[![](https://img.shields.io/badge/%E8%B6%85%E6%98%9F-%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0-orange?link=https://www.choaoxing.com&link=https://github.com/Closty/chaoxing)](https://img.shields.io/badge/%E8%B6%85%E6%98%9F-%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0-orange?link=https://www.choaoxing.com&link=https://github.com/Closty/chaoxing)
-[![](https://img.shields.io/badge/by-%E7%93%B6%E5%AD%90-green?link=https://www.clost.net)](https://img.shields.io/badge/by-%E7%93%B6%E5%AD%90-green?link=https://www.clost.net)
+[![](https://img.shields.io/badge/%E8%B6%85%E6%98%9F-%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0-orange?link=https://www.choaoxing.com&link=https://github.com/Closty/chaoxing)](https://github.com/Closty/chaoxing)
+[![](https://img.shields.io/badge/by-%E7%93%B6%E5%AD%90-green?link=https://www.clost.net)](https://www.clost.net/default/871.html)
 
-https://img.shields.io/endpoint?url=https://clost.net&style=
-https://img.shields.io/badge/dynamic/json?url=https://www.clost.net&label=<LABEL>&color=<COLOR>&prefix=<PREFIX>&suffix=<SUFFIX>
 [无法查看图片？](https://www.clost.net/default/871.html "无法查看图片？")
 
 - Fork本项目后进入自己的仓库，点击你的仓库右上角的 Settings，找到 Secrets
