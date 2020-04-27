@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/%E8%B6%85%E6%98%9F-%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0-orange?link=https://www.choaoxing.com&link=https://github.com/Closty/chaoxing)](https://github.com/Closty/chaoxing)
 [![](https://img.shields.io/badge/by-%E7%93%B6%E5%AD%90-green?link=https://www.clost.net)](https://www.clost.net/default/871.html)
 ![chaoxing](https://github.com/Closty/chaoxing/workflows/chaoxing/badge.svg)
-
+[![HitCount](http://hits.dwyl.com/closty/chaoxing.svg)](http://hits.dwyl.com/closty/chaoxing)
 <img src="https://s1.ax1x.com/2020/04/26/JRuNrR.png" width = "500" height = "300" alt="github实现云签到" align=center />
 
 ### 前言
