@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/by-%E7%93%B6%E5%AD%90-green?link=https://www.clost.net)](https://www.clost.net/default/871.html)
 ![chaoxing](https://github.com/Closty/chaoxing/workflows/chaoxing/badge.svg)
 
-<img src="https://s1.ax1x.com/2020/04/26/JRuNrR.png" width = "300" height = "200" alt="github实现云签到" align=center />
+<img src="https://s1.ax1x.com/2020/04/26/JRuNrR.png" width = "500" height = "300" alt="github实现云签到" align=center />
 
 ### 前言
 为了让同学们更加认真、更加专注听课，而不去用手机签到花费大量时间、耗费大量精力，特此在[原脚本](https://github.com/mkdir700/chaoxing_auto_sign)中开发升级，请自行合理使用！挂科请不要找我，谢谢合作！请点击下方View all of README.md了解更多。
