@@ -132,6 +132,10 @@ python脚本在`chaoxing/cx.py`文件中，其中第12—34行为配置区域，
 
 
 
+## 紧急通知
+
+由于本项目被大量fork并启动actions功能，占用github官方服务器大量资源。部分用户反映无法签到，actions功能被禁止等问题。目前项目停止更新，如需使用签到服务，请访问我的服务器 https://cx.clost.net
+ 稍后会将源码上传，感谢各位的使用！
 
 
 [7]: https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/04/3749713206.png
