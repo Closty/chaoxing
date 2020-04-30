@@ -1,11 +1,15 @@
 ## 介绍
 [![](https://img.shields.io/badge/%E8%B6%85%E6%98%9F-%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0-orange?link=https://www.choaoxing.com&link=https://github.com/Closty/chaoxing)](https://github.com/Closty/chaoxing)
 [![](https://img.shields.io/badge/by-%E7%93%B6%E5%AD%90-green?link=https://www.clost.net)](https://www.clost.net/default/871.html)
+![chaoxing](https://github.com/Closty/chaoxing/workflows/chaoxing/badge.svg)
+[![HitCount](http://hits.dwyl.com/closty/chaoxing.svg)](http://hits.dwyl.com/closty/chaoxing)
+
+<img src="https://s1.ax1x.com/2020/04/26/JRuNrR.png" width = "500" height = "300" alt="github实现云签到" align=center />
 
 ### 前言
-为了让同学们更加认真、更加专注听课，而不去用手机签到花费大量时间、耗费大量精力，特此在[原脚本](https://github.com/mkdir700/chaoxing_auto_sign)中开发升级，请自行合理使用！挂科请不要找我，谢谢合作！
+为了让同学们更加认真、更加专注听课，而不去用手机签到花费大量时间、耗费大量精力，特此在[原脚本](https://github.com/mkdir700/chaoxing_auto_sign)中开发升级，请自行合理使用！挂科请不要找我，谢谢合作！请点击下方View all of README.md了解更多。
 
-本项目支持学习通任何形式的签到（包括二维码签到、手势签到等），如果是位置签到也可以自定义位置，如果是拍照签到，请自认倒霉，因为默认是黑色照片，自定义照片还在等待开发中。请点击下方View all of README.md了解更多。
+本项目支持学习通任何形式的签到（包括二维码签到、手势签到等），如果是位置签到也可以自定义位置，如果是拍照签到，请自认倒霉，因为默认是黑色照片，自定义照片还在等待开发中。
 
 本脚本最大的不同应该就是基于github action运行，所以并不需要服务器、不需要服务器、不需要服务器同样也不需要掌握任何python的相关设置，你所需要准备的就是一个github账号以及一个耐而不烦的心。傻瓜式的操作却可以解决你最大的痛苦。
 
